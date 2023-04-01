@@ -1,10 +1,10 @@
 import React from "react";
-import Roulette1 from "./Roulette1";
-import Roulette2 from "./Roulette2";
-import Roulette3 from "./Roulette3";
-import Roulette4 from "./Roulette4";
-import Roulette5 from "./Roulette5";
-import Roulette6 from "./Roulette6";
+import Roulette1 from "./atoms/Roulette1";
+import Roulette2 from "./atoms/Roulette2";
+import Roulette3 from "./atoms/Roulette3";
+import Roulette4 from "./atoms/Roulette4";
+import Roulette5 from "./atoms/Roulette5";
+import Roulette6 from "./atoms/Roulette6";
 import { Flex } from "@chakra-ui/react";
 
 export default function MainRoulette() {

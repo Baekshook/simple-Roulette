@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Wheel } from "react-custom-roulette";
 import { Box, Button } from "@chakra-ui/react";
-import AddNames from "./AddNames";
+import AddNames from "@components/molcules/AddNames";
 
 export default function Roulette4() {
   const [mustSpin, setMustSpin] = useState(false);

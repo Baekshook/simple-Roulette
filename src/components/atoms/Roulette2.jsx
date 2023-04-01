@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Wheel } from "react-custom-roulette";
 import { Box, Button } from "@chakra-ui/react";
-import AddNames from "./AddNames";
+import AddNames from "@components/molcules/AddNames";
 
-export default function Roulette6() {
+export default function Roulette2() {
   const [mustSpin, setMustSpin] = useState(false);
   const [prizeNumber, setPrizeNumber] = useState(0);
   const [myName, setMyName] = useState([{ option: "한번 더" }]);
@@ -25,7 +25,7 @@ export default function Roulette6() {
       borderWidth="1px"
       borderRadius="lg"
       overflow="hidden"
-      bg="orange.200"
+      bg="purple.200"
       marginLeft={"11px"}
     >
       <AddNames onAddNames={handleAddName} />
