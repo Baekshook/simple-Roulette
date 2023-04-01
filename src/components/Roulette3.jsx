@@ -6,7 +6,7 @@ import AddNames from "./AddNames";
 export default function Roulette3() {
   const [mustSpin, setMustSpin] = useState(false);
   const [prizeNumber, setPrizeNumber] = useState(0);
-  const [myName, setMyName] = useState([{ option: "꽝" }]);
+  const [myName, setMyName] = useState([{ option: "한번 더" }]);
 
   const handleSpinClick = () => {
     const newPrizeNumber = Math.floor(Math.random() * myName.length);
