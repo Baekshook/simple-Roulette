@@ -10,12 +10,12 @@ import { Flex } from "@chakra-ui/react";
 export default function MainRoulette() {
   return (
     <>
-      <Flex gap="8">
+      <Flex gap="8" mt={"20px"}>
         <Roulette1 />
         <Roulette2 />
         <Roulette3 />
       </Flex>
-      <Flex gap="8">
+      <Flex gap="8" mt={"10px"} mb={"30px"}>
         <Roulette4 />
         <Roulette5 />
         <Roulette6 />
