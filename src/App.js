@@ -1,10 +1,12 @@
-import GlobalStyle from "./GlobalStyle";
-import styled from "styled-components";
+import { ChakraProvider } from "@chakra-ui/react";
+import MainRoulette from "@components/MainRoulette";
 
 function App() {
   return (
     <>
-      <GlobalStyle />
+      <ChakraProvider>
+        <MainRoulette />
+      </ChakraProvider>
     </>
   );
 }
