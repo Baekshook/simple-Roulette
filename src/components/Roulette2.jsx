@@ -25,7 +25,7 @@ export default function Roulette2() {
       borderWidth="1px"
       borderRadius="lg"
       overflow="hidden"
-      bg="green.200"
+      bg="purple.200"
       marginLeft={"11px"}
     >
       <AddNames onAddNames={handleAddName} />
