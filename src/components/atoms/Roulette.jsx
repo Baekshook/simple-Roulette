@@ -3,7 +3,7 @@ import { Wheel } from "react-custom-roulette";
 import { Box, Button } from "@chakra-ui/react";
 import AddNames from "@components/molcules/AddNames";
 
-export default function Roulette1() {
+export default function Roulette(props) {
   const [mustSpin, setMustSpin] = useState(false);
   const [prizeNumber, setPrizeNumber] = useState(0);
   const [myName, setMyName] = useState([{ option: "한번 더" }]);
@@ -25,7 +25,7 @@ export default function Roulette1() {
       borderWidth="1px"
       borderRadius="lg"
       overflow="hidden"
-      bg="green.200"
+      bg={props.color}
       marginLeft={"11px"}
     >
       <AddNames onAddNames={handleAddName} />
@@ -33,7 +33,7 @@ export default function Roulette1() {
         mustStartSpinning={mustSpin}
         outerBorderWidth="3"
         radiusLineWidth="3"
-        spinDuration="0.8"
+        spinDuration="1"
         prizeNumber={prizeNumber}
         data={myName}
         onStopSpinning={() => {

@@ -1,25 +1,19 @@
 import React from "react";
-import Roulette1 from "./atoms/Roulette1";
-import Roulette2 from "./atoms/Roulette2";
-import Roulette3 from "./atoms/Roulette3";
-import Roulette4 from "./atoms/Roulette4";
-import Roulette5 from "./atoms/Roulette5";
-import Roulette6 from "./atoms/Roulette6";
-import { Flex } from "@chakra-ui/react";
+import Roulette from "./atoms/Roulette";
+
+import { Grid } from "@chakra-ui/react";
 
 export default function MainRoulette() {
   return (
     <>
-      <Flex gap="8" mt={"20px"}>
-        <Roulette1 />
-        <Roulette2 />
-        <Roulette3 />
-      </Flex>
-      <Flex gap="8" mt={"10px"} mb={"30px"}>
-        <Roulette4 />
-        <Roulette5 />
-        <Roulette6 />
-      </Flex>
+      <Grid gap="8" mt={"20px"} templateColumns="repeat(3, 1fr)" marginTop={"20px"} marginBottom={"20px"}>
+        <Roulette color="red.200" />
+        <Roulette color="purple.200" />
+        <Roulette color="orange.200" />
+        <Roulette color="green.200" />
+        <Roulette color="blue.200" />
+        <Roulette color="yellow.200" />
+      </Grid>
     </>
   );
 }
