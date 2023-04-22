@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Input, Button } from "@chakra-ui/react";
 
-export default function AddNames({myName, setMyName}) {
+export default function AddNames({ myName, setMyName }) {
   const [name, setName] = useState("");
 
   const onAddNames = (e) => {
@@ -14,9 +14,17 @@ export default function AddNames({myName, setMyName}) {
     }
   };
 
+  const removeName = () => {
+    if (myName.length === 1) {
+      alert("한번 더는 삭제할 수 없습니다.");
+    } else {
+      setMyName(myName.slice(0, myName.length - 1));
+    }
+  };
+
   return (
     <>
-      <form onSubmit={onAddNames}> 
+      <form onSubmit={onAddNames}>
         <Input
           mt={"20px"}
           ml={"20px"}
@@ -30,6 +38,9 @@ export default function AddNames({myName, setMyName}) {
         ></Input>
         <Button ml={"20px"} type="submit">
           추가
+        </Button>
+        <Button ml={"20px"} onClick={removeName}>
+          삭제
         </Button>
       </form>
     </>
