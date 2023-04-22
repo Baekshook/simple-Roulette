@@ -14,11 +14,6 @@ export default function Roulette(props) {
     setMustSpin(true);
   };
 
-  function handleAddName(option) {
-    //이름을 받아서 추가를 앞에 해줍니다.
-    setMyName([{ option }, ...myName]);
-  }
-
   return (
     <Box
       maxW="lg"
@@ -28,7 +23,7 @@ export default function Roulette(props) {
       bg={props.color}
       marginLeft={"11px"}
     >
-      <AddNames onAddNames={handleAddName} />
+      <AddNames myName={myName} setMyName={setMyName} />
       <Wheel
         mustStartSpinning={mustSpin}
         outerBorderWidth="3"
