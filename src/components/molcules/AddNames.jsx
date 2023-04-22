@@ -26,7 +26,7 @@ export default function AddNames({ myName, setMyName }) {
     <>
       <form onSubmit={onAddNames}>
         <Input
-          mt={"20px"}
+          mt={"10px"}
           ml={"20px"}
           htmlSize={20}
           width="auto"
@@ -36,10 +36,10 @@ export default function AddNames({ myName, setMyName }) {
           onChange={(e) => setName(e.target.value)}
           value={name}
         ></Input>
-        <Button ml={"20px"} type="submit">
+        <Button mb={"5px"} ml={"20px"} type="submit">
           추가
         </Button>
-        <Button ml={"20px"} onClick={removeName}>
+        <Button mb={"5px"} ml={"20px"} onClick={removeName}>
           삭제
         </Button>
       </form>

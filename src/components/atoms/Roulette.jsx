@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Wheel } from "react-custom-roulette";
-import { Box, Button } from "@chakra-ui/react";
+import { Box, Button, Flex, Text } from "@chakra-ui/react";
 import AddNames from "@components/molcules/AddNames";
 
-export default function Roulette({ colors, info }) {
+export default function Roulette({ colors, info, n }) {
   const [mustSpin, setMustSpin] = useState(false);
   const [prizeNumber, setPrizeNumber] = useState(0);
   const [myName, setMyName] = useState(info);
@@ -23,6 +23,25 @@ export default function Roulette({ colors, info }) {
       bg={colors}
       marginLeft={"11px"}
     >
+      <Flex justifyContent={"center"} alignItems={"center"}>
+        {n === 5 ? (
+          <Text
+            mt={"10px"}
+            fontSize={"xl"}
+            fontFamily={"PyeongChangPeace-Bold"}
+          >
+            한달 전체
+          </Text>
+        ) : (
+          <Text
+            mt={"10px"}
+            fontSize={"xl"}
+            fontFamily={"PyeongChangPeace-Bold"}
+          >
+            {n + 1}주차
+          </Text>
+        )}
+      </Flex>
       <AddNames myName={myName} setMyName={setMyName} />
       <Wheel
         mustStartSpinning={mustSpin}
@@ -34,11 +53,18 @@ export default function Roulette({ colors, info }) {
         onStopSpinning={() => {
           setMustSpin(false);
         }}
-        fontSize="25"
-        fontFamily="Single Day"
-        backgroundColors={["#64FE2E", "#F781F3", "#FAAC58", "#00FFFF"]}
+        fontSize="20"
+        fontFamily="SEBANG_Gothic_Bold"
+        backgroundColors={["#FFFF00", "#00FF7F", "#FF69B4", "#ADD8E6"]}
       />
-      <Button mb={"20px"} ml={"20px"} onClick={handleSpinClick}>
+      <Button
+        bgColor={"purple.500"}
+        textColor={"white"}
+        _hover={{ bg: "purple.400" }}
+        mb={"20px"}
+        ml={"20px"}
+        onClick={handleSpinClick}
+      >
         SPIN
       </Button>
     </Box>
