@@ -1,0 +1,46 @@
+[
+  {
+    "colors": "red.200",
+    "info": [
+      { "option": "A" },
+      { "option": "B" },
+      { "option": "C" },
+      { "option": "D" }
+    ]
+  },
+  {
+    "colors": "purple.200",
+    "info": [{ "option": "E" }, { "option": "F" }, { "option": "G" }]
+  },
+  {
+    "colors": "orange.200",
+    "info": [
+      { "option": "아이폰" },
+      { "option": "아이패드" },
+      { "option": "아이패드 에어" },
+      { "option": "아이패드 프로" }
+    ]
+  },
+  {
+    "colors": "green.200",
+    "info": [{ "option": "에어팟" }, { "option": "에어팟 프로" }]
+  },
+  {
+    "colors": "blue.200",
+    "info": [
+      { "option": "맥북 에어" },
+      { "option": "맥북 프로" },
+      { "option": "아이맥" },
+      { "option": "맥미니" }
+    ]
+  },
+  {
+    "colors": "yellow.200",
+    "info": [
+      { "option": "useState" },
+      { "option": "useEffect" },
+      { "option": "useContext" },
+      { "option": "useRef" }
+    ]
+  }
+]

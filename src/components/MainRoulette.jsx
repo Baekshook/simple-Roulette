@@ -1,6 +1,6 @@
 import React from "react";
 import Roulette from "./atoms/Roulette";
-
+import nameData from "../nameData.json";
 import { Grid } from "@chakra-ui/react";
 
 const colors = [
@@ -22,8 +22,8 @@ export default function MainRoulette() {
         marginTop={"20px"}
         marginBottom={"20px"}
       >
-        {colors.map((v, i) => {
-          return <Roulette key={i} color={v} />;
+        {nameData.map((v, i) => {
+          return <Roulette key={i} colors={v.colors} info={v.info}/>;
         })}
       </Grid>
     </>
