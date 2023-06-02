@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Wheel } from "react-custom-roulette";
 import { Box, Button, Flex, Text } from "@chakra-ui/react";
 import AddNames from "@components/molcules/AddNames";
@@ -14,6 +14,12 @@ export default function Roulette({ colors, info, n }) {
     setMustSpin(true);
   };
 
+  useEffect(() => {
+    if (mustSpin === true) {
+      console.log(prizeNumber);
+    }
+  }, [handleSpinClick]);
+
   return (
     <Box
       maxW="lg"
@@ -24,13 +30,21 @@ export default function Roulette({ colors, info, n }) {
       marginLeft={"11px"}
     >
       <Flex justifyContent={"center"} alignItems={"center"}>
-        {n === 5 ? (
+        {n === 3 ? (
           <Text
             mt={"10px"}
             fontSize={"xl"}
             fontFamily={"PyeongChangPeace-Bold"}
           >
             한달 전체
+          </Text>
+        ) : n === 2 ? (
+          <Text
+            mt={"10px"}
+            fontSize={"xl"}
+            fontFamily={"PyeongChangPeace-Bold"}
+          >
+            4주차
           </Text>
         ) : (
           <Text
@@ -54,7 +68,6 @@ export default function Roulette({ colors, info, n }) {
           setMustSpin(false);
         }}
         fontSize="20"
-        fontFamily="SEBANG_Gothic_Bold"
         backgroundColors={["#FFFF00", "#00FF7F", "#FF69B4", "#ADD8E6"]}
       />
       <Button

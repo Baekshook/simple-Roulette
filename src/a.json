@@ -1,0 +1,140 @@
+[
+  {
+    "colors": "red.200",
+    "info": [
+      { "option": "김다은" },
+      { "option": "김다현" },
+      { "option": "이명제" },
+      { "option": "오주은" },
+      { "option": "김민주" },
+      { "option": "박새미" },
+      { "option": "고민지" },
+      { "option": "이세영" },
+      { "option": "유지원" },
+      { "option": "이운우" },
+      { "option": "박성결" },
+      { "option": "송호성" },
+      { "option": "윤서준" },
+      { "option": "동혜담" },
+      { "option": "이세인" },
+      { "option": "윤서린" },
+      { "option": "이규리" },
+      { "option": "최 선" },
+      { "option": "최정빈" },
+      { "option": "이건송" }
+    ]
+  },
+  {
+    "colors": "purple.200",
+    "info": [
+      { "option": "박새미" },
+      { "option": "이규리" },
+      { "option": "고민지" },
+      { "option": "오주은" },
+      { "option": "이건송" },
+      { "option": "황종수" },
+      { "option": "전윤민" },
+      { "option": "최 선" },
+      { "option": "이세인" },
+      { "option": "이명제" },
+      { "option": "지 율" },
+      { "option": "전예은" },
+      { "option": "박성결" },
+      { "option": "이세영" },
+      { "option": "김다은" },
+      { "option": "동혜담" },
+      { "option": "이운우" },
+      { "option": "유지원" },
+      { "option": "김다현" },
+      { "option": "최 현" },
+      { "option": "조윤서" },
+      { "option": "윤서준" },
+      { "option": "송호성" }
+    ]
+  },
+  {
+    "colors": "orange.200",
+    "info": [
+      { "option": "박성결" },
+      { "option": "윤서린" },
+      { "option": "조준우" },
+      { "option": "전윤민" },
+      { "option": "오주은" },
+      { "option": "김다은" },
+      { "option": "지 율" },
+      { "option": "황종수" },
+      { "option": "박새미" },
+      { "option": "최 선" },
+      { "option": "이운우" },
+      { "option": "이건송" },
+      { "option": "최 현" },
+      { "option": "전예은" },
+      { "option": "송나영" },
+      { "option": "고민지" },
+      { "option": "윤서준" },
+      { "option": "양선혜" },
+      { "option": "동혜담" },
+      { "option": "유지원" },
+      { "option": "송호성" },
+      { "option": "이세영" },
+      { "option": "이규리" }
+    ]
+  },
+  {
+    "colors": "green.200",
+    "info": [
+      { "option": "김다은" },
+      { "option": "전예은" },
+      { "option": "지 율" },
+      { "option": "유지원" },
+      { "option": "이건송" },
+      { "option": "조윤서" },
+      { "option": "황종수" },
+      { "option": "이세영" },
+      { "option": "김다현" },
+      { "option": "오주은" },
+      { "option": "이규리" },
+      { "option": "고민지" },
+      { "option": "이운우" },
+      { "option": "최 현" },
+      { "option": "이세인" },
+      { "option": "동혜담" },
+      { "option": "최 선" },
+      { "option": "송호성" }
+    ]
+  },
+  {
+    "colors": "blue.200",
+    "info": [
+      { "option": "이세인" },
+      { "option": "지 율" },
+      { "option": "유지원" },
+      { "option": "박새미" },
+      { "option": "오주은" },
+      { "option": "최 선" },
+      { "option": "이세영" },
+      { "option": "이규리" },
+      { "option": "이명제" },
+      { "option": "김다은" },
+      { "option": "이운우" },
+      { "option": "윤서준" },
+      { "option": "이건송" },
+      { "option": "최 현" },
+      { "option": "고민지" }
+    ]
+  },
+  {
+    "colors": "yellow.200",
+    "info": [
+      { "option": "이건송" },
+      { "option": "김다은" },
+      { "option": "최 선" },
+      { "option": "유지원" },
+      { "option": "이세영" },
+      { "option": "고민지" },
+      { "option": "이운우" },
+      { "option": "이규리" },
+      { "option": "오주은" }
+    ]
+  }
+]
