@@ -9,7 +9,7 @@ export default function MainRoulette() {
       <Grid
         gap="8"
         mt={"20px"}
-        templateColumns="repeat(2, 1fr)"
+        templateColumns="repeat(3, 1fr)"
         marginTop={"20px"}
         marginBottom={"20px"}
       >

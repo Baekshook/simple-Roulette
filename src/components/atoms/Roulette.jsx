@@ -30,21 +30,13 @@ export default function Roulette({ colors, info, n }) {
       marginLeft={"11px"}
     >
       <Flex justifyContent={"center"} alignItems={"center"}>
-        {n === 3 ? (
+        {n === 4 ? (
           <Text
             mt={"10px"}
             fontSize={"xl"}
             fontFamily={"PyeongChangPeace-Bold"}
           >
             한달 전체
-          </Text>
-        ) : n === 2 ? (
-          <Text
-            mt={"10px"}
-            fontSize={"xl"}
-            fontFamily={"PyeongChangPeace-Bold"}
-          >
-            4주차
           </Text>
         ) : (
           <Text
